@@ -31,7 +31,8 @@ class LocationTableViewCell: UITableViewCell {
     
     countryLabel.text = location.country
     locationLabel.text = location.location
-    clueCountLabel.text = "\(location.clues.count) locations"
+    clueCountLabel.text = "\(location.clues.count) clues"
+    
     }
 
 }

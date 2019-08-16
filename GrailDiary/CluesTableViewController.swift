@@ -21,7 +21,7 @@ class CluesTableViewController: UIViewController {
         
         tableView.dataSource = self
         
-        locations.append(Location(location: "New York", country: "United States", clues: ["subway"]))
+        locations.append(Location(location: "New York", country: "United States", clues: ["subway", "Pizza"]))
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
